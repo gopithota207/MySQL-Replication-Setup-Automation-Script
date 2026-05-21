@@ -1,17 +1,6 @@
 #!/bin/bash
 # =============================================================================
 # MySQL Replication Setup Script
-# 
-# Description: Automates MySQL source-to-replica replication setup
-#              based on binary log position method.
-#              Tested on MySQL  / RHEL 8 / Oracle Linux 8
-#
-# Note: I wrote this after setting up replication manually multiple times.
-#       Tired of doing same steps again and again so automated it.
-#       Script covers everything from user creation to sync verification.
-#
-# Usage: bash mysql_replication_setup.sh
-# =============================================================================
 
 # ---------------------------------------------------------------
 # CONFIGURATION - change these to match your environment
