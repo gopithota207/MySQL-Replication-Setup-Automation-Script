@@ -1,10 +1,10 @@
 #!/bin/bash
 # =============================================================================
-# MySQL 8.0 Replication Setup Script
-# Author: Gopi Thota
+# MySQL Replication Setup Script
+# 
 # Description: Automates MySQL source-to-replica replication setup
 #              based on binary log position method.
-#              Tested on MySQL 8.0 / RHEL 8 / Oracle Linux 8
+#              Tested on MySQL  / RHEL 8 / Oracle Linux 8
 #
 # Note: I wrote this after setting up replication manually multiple times.
 #       Tired of doing same steps again and again so automated it.
